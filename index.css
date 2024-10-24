@@ -1,0 +1,129 @@
+/* body {
+    font-family: "Inter", sans-serif;
+    background: #0d0e13;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    background: #F4F4F4;
+    height: 729px;
+    width: 550px;
+    
+}
+
+#top-part {
+    background: #6943FF;
+    height: 285px;
+    width: 550px;
+}
+
+#length-part {
+    background: white;
+    width: 500px;
+    height: 108.57px;
+} */
+
+body {
+    font-family: "Inter", sans-serif;
+    background: #0d0e13;
+    
+}
+
+.container {
+    background: #F4F4F4;
+    height: 729px;
+    width: 550px;
+    margin: 50px auto;
+    border: 5px solid white;
+    border-radius: 15px;
+    margin-bottom: 0;
+    
+}
+
+#top-part {
+    background: #6943FF;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 285px;
+    width: 550px;
+    text-align: center; /* Centrer le texte */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#top-title {
+    margin-top: 0;
+    padding-top: 30px;
+}
+
+#number {
+    background: #6943FF;;
+    color: white;
+    font-weight: bold;
+    width: 117px;
+    height: 83px;
+    font-size: 58px;
+    margin: 30px auto;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    display: flex; /* Active Flexbox */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    padding: 0;
+    text-align: center;
+    
+}
+
+#btn {
+    color: #3D3D3D;
+    background: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    width: 117px;
+    height: 42px;
+    border: none;
+    border-radius: 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.box {
+    background: white;
+    color: #5A537B;
+    font-size: 20px;
+    font-weight: 600;
+    width: 500px;
+    height: 108.57px;
+    text-align: center; /* Centrer le texte */
+    margin: 30px auto;
+}
+
+.title {
+    padding-top: 30px;
+    margin-bottom: 0;
+    color: #5A537B;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+p {
+    color: #353535;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+h2 {
+    color: white;
+    font-size: 15px;
+    margin: 10px 0 0 370px;
+    display: flex; /* Active Flexbox */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    
+    
+  
+}
